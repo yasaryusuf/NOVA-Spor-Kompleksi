@@ -57,6 +57,13 @@ NOVA Spor Kompleksi; bir spor tesisinin hizmetlerini, eğitim programlarını, a
 
 ## Proje yapısı
 
+Tema kökü; `style.css`, `functions.php`, `index.php`, `front-page.php`, `page.php`,
+`header.php`, `footer.php`, `404.php`, `screenshot.png` ve `KURULUM.txt` dosyalarını
+içerir. Tema yardımcıları `inc/accounts.php` ve `inc/requests.php` altında; uygulama
+şablonu `template-parts/site-app.php` altında; CSS, JavaScript ve görseller ise sırasıyla
+`assets/css/`, `assets/js/` ve `assets/img/` altındadır. Belgelerdeki üç ekran görüntüsü
+`docs/screenshots/` altında, teslim rehberi de `docs/TESLIM_REHBERI.md` konumundadır.
+
 ```text
 NOVA-Spor-Kompleksi/
 ├── README.md
@@ -86,6 +93,8 @@ NOVA-Spor-Kompleksi/
 ## Belgeler ve ders teslimi
 
 Detaylı kullanım kılavuzu: [NOVA Sistem Kullanım Kitapçığı (PDF)](docs/NOVA_Sistem_Kullanim_Kitapcigi.pdf)
+
+Teslim notları: [Teslim Rehberi](docs/TESLIM_REHBERI.md)
 
 Ders tesliminde ayrıca istenen **SQL veritabanı yedeği** ve **WordPress XML dışa aktarımı**, gerçek yerel kurulum üzerinden ayrı alınır ve *yalnızca özel teslim kanalından* paylaşılır. Bu açık depoda kullanıcı bilgileri, veritabanı dökümü veya `wp-config.php` bulunmaz.
 

@@ -357,7 +357,7 @@ add_action('wp_footer',function(){
     echo '<div id="nova-portal-mount">'.do_shortcode('[nova_hesap_sistemi]').'</div>';
 },8);
 add_action('wp_enqueue_scripts',function(){
-    wp_enqueue_style('nova-hesap',get_template_directory_uri().'/assets/nova-hesap.css',array(),NOVA_PORTAL_VERSION);
+    wp_enqueue_style('nova-hesap',get_template_directory_uri().'/assets/css/nova-hesap.css',array(),NOVA_PORTAL_VERSION);
     wp_enqueue_script('nova-hesap',get_template_directory_uri().'/assets/js/nova-hesap.js',array(),NOVA_PORTAL_VERSION,true);
     wp_add_inline_script('nova-hesap', 'window.NOVA_PORTAL = '.wp_json_encode(array(
         'ajax'=>admin_url('admin-ajax.php'), 'nonce'=>wp_create_nonce('nova_portal_action'),
