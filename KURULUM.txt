@@ -1,0 +1,37 @@
+NOVA SPOR KOMPLEKSİ — WORDPRESS TEMA (v5.0)
+
+Bu ZIP, en son KONUM_HARITA_DUZELTILDI.html sürümünün WordPress temasıdır.
+Menüler, 8 antrenör, değişim görselleri, beslenme ve PT/üyelik formları korunmuştur.
+
+KURULUM
+1) XAMPP Apache ve MySQL'i başlat.
+2) WordPress paneli: http://localhost/spor-kompleksi/wp-admin/
+3) Site + veritabanı yedeği al.
+4) Görünüm > Temalar > Yeni Ekle > Tema Yükle'den bu ZIP'i kur. Mevcut NOVA temasını güncelle.
+5) Görünüm > Özelleştir > NOVA Site ve E-posta Ayarları > Harita numarası (varsayılan 1).
+6) Eklentiler > Yeni Ekle: WP Go Maps eklentisini yükle/etkinleştir.
+7) WP Go Maps > Maps bölümünde Bursa / Nilüfer haritası oluştur, işaretçini ekle.
+8) Harita ID'si 1 değilse Özelleştir'den harita numarasını güncelle.
+9) Ana sayfada harita sitenin içinde görünür; ayrı harita sitesine yönlendirme gerekmez.
+10) Üyelikler sayfasındaki Üye Ol/Giriş Yap mevcut WordPress SQL kullanıcı sistemini kullanır.
+
+HESAP SİSTEMİ
+Bu temanın içinde NOVA hesap modülü vardır. Daha önce NOVA Hesap ve Giriş Sistemi eklentisini
+etkinleştirdiysen aynı kod tekrar yüklenmez; çakışma olmaması için kontrol vardır.
+Mevcut WordPress yönetici hesabın korunur. Üyeler WordPress users/usermeta tablolarında tutulur.
+PT başvuruları yönetici onayı olmadan yetki vermez.
+
+HARİTA / BAĞLANTI
+WP Go Maps eklentisi etkin değilse şık bir kurulum açıklaması görünür.
+Harita döşemeleri için internet gerekir. Harita NOVA sayfasının içinde çalışır.
+Örnek konum gerçek işletme adresi DEĞİLDİR.
+
+BAŞVURULAR
+PT, salon, üyelik ve ders talepleri otomatik kesin rezervasyon değildir.
+WordPress panelindeki NOVA Başvuruları üzerinden yönetilir. SMTP kurulumu e-posta gönderimleri için gerekir.
+Tema tek başına ödeme veya rezervasyon garantisi vermez.
+
+ENVATO
+Envato tanıtım sayfası bulunmaktadır. Tema gerçek Envato mağazasında satışa çıkarılmamıştır.
+
+NOT: Bu ZIP tema dosyasıdır, veritabanı SQL yedeği veya WordPress XML export değildir.
